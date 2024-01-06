@@ -69,11 +69,15 @@ nav a{
     max-width: 500px;
 }
 /* main section styles */
+main{
+    max-width: 1140;
+    margin: 0 auto;
+}
 .about{
     padding: 130px;
     border-radius:10px;
     background-color: #FFF8F3;
-    margin-top: 130px 0;
+    margin-top:130px 0;
 }
 .section-title{
     color: #181818;
@@ -85,4 +89,11 @@ nav a{
     color:#757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
